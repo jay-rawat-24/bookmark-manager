@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -38,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 <!-- ******************************* -->
 
  <!-- the chalenging part for me to setup the realtime updataion in supabase but that's not too much difficult for me. I easily tackled that problem. -->
+=======
+# bookmark-manager
+In this project login user can easily add their bookmarks and also different user cannot see your data . All these data updates in realtime without refreshing the page . Using the supabase database for realtime updation.
+>>>>>>> 1bbbe55ab868690869408315833563ba7237c191
