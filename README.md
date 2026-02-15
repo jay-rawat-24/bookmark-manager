@@ -1,4 +1,11 @@
 <<<<<<< HEAD
+     
+<!--   Assignment Chalenging part
+The most difficult part of the bookmark manager app was getting authentication, realtime updates, and deployment to work together smoothly. Each feature worked individually, but combining them introduced edge cases. For example, Google OAuth required exact redirect URLs, and even a small mismatch caused login failures. Debugging this took patience because the errors were not always clear. I had to carefully verify Supabase settings, environment variables, and browser behavior. Restarting the dev server and testing in incognito mode helped isolate configuration issues and confirm whether problems were coming from cached sessions or incorrect keys.
+
+Another challenge was implementing realtime updates without breaking React’s lifecycle. The websocket connection sometimes triggered before the user session was ready, causing runtime errors. I solved this by guarding the subscription logic and ensuring it only ran after authentication completed. Managing state updates for instant insert/delete without refreshing also required restructuring the effect hooks. Instead of refetching everything, I used event-based updates to modify local state directly. This improved performance and user experience while keeping the UI responsive. Careful testing across multiple tabs ensured realtime syncing behaved consistently.
+-->
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
